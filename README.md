@@ -1,15 +1,9 @@
-# CienciaDesk PWA v0.2
+# CienciaDesk v0.4 — Repertorio curricular integrado
 
-Actualización del módulo curricular. Mantiene las secciones de laboratorio, organización y asistente de v0.1.
+Incluye 20 OA de I° Medio, 18 de II° Medio, 12 OA de conocimientos de Ciencias para la Ciudadanía y 9 OA de habilidades transversales.
 
-## Publicación en GitHub Pages
+Los indicadores de evaluación de I° y II° se extrajeron de las tablas OA–Indicadores de los programas proporcionados. Deben cotejarse con el PDF antes de uso evaluativo formal (extracción automatizada).
 
-Sube **todos los archivos del contenido de esta carpeta** a la raíz del repositorio `cienciadesk`, reemplazando los anteriores. GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root). Recarga la página tras la publicación; el Service Worker cambia de caché a v02.
+Para III° Medio el documento organiza los indicadores y evidencias dentro de actividades y evaluaciones; no se han inventado correspondencias directas OA–indicador. Las fichas muestran el OA y remiten al programa.
 
-## Contenido curricular
-
-La aplicación no incluye textos de OA ni indicadores inventados. Importa archivos JSON verificados con la fuente oficial. Descarga una plantilla desde el propio módulo. El esquema de cada objeto es: `id`, `curso`, `area`, `codigo`, `descripcion`, `indicadores` (lista de textos), `fuenteUrl`, `fuenteTipo`. Se validan campos, URL y ejes. La importación actualiza por `id` sin borrar los otros OA.
-
-## Persistencia y límites
-
-Los OA, el seguimiento, el inventario y las tareas se guardan en `localStorage` del navegador. No hay sincronización entre Android y Windows. Exporta tu repositorio como copia de seguridad. GitHub Pages es alojamiento estático, no base de datos. El asistente sigue siendo una plantilla local, sin IA conectada.
+Para actualizar GitHub Pages: cargar todos los archivos de esta carpeta en la raíz del repositorio, incluyendo curriculum_oficial.json, y confirmar cambios. Los datos locales de seguimiento permanecen en el navegador.
