@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>document.querySelector(`[data-tab="${b.dataset.go}"]`).click()));document.getElementById('nav').addEventListener('click',e=>{const b=e.target.closest('[data-tab]');if(!b)return;document.getElementById('page-title').textContent=b.textContent.trim();window.scrollTo({top:0,behavior:'instant'})});

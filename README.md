@@ -1,9 +1,15 @@
-# CienciaDesk v0.4 — Repertorio curricular integrado
+# CienciaDesk v0.5 — rediseño funcional
 
-Incluye 20 OA de I° Medio, 18 de II° Medio, 12 OA de conocimientos de Ciencias para la Ciudadanía y 9 OA de habilidades transversales.
+Reemplaza los archivos de la raíz del repositorio GitHub Pages con los archivos de este ZIP (sin crear una carpeta adicional). Se agregan `style.css` y `ui.js`. Mantén `curriculum_oficial.json`.
 
-Los indicadores de evaluación de I° y II° se extrajeron de las tablas OA–Indicadores de los programas proporcionados. Deben cotejarse con el PDF antes de uso evaluativo formal (extracción automatizada).
+## Cambios
+- Navegación lateral en escritorio e inferior en Android.
+- Explorador curricular con selección de OA y ficha de detalle.
+- Selección individual de indicadores y persistencia local.
+- Menos botones; utilidades y formularios plegables.
+- Se conservan claves de almacenamiento local de v0.4.
 
-Para III° Medio el documento organiza los indicadores y evidencias dentro de actividades y evaluaciones; no se han inventado correspondencias directas OA–indicador. Las fichas muestran el OA y remiten al programa.
-
-Para actualizar GitHub Pages: cargar todos los archivos de esta carpeta en la raíz del repositorio, incluyendo curriculum_oficial.json, y confirmar cambios. Los datos locales de seguimiento permanecen en el navegador.
+## Límites
+- Los datos locales no se sincronizan entre dispositivos.
+- El repertorio curricular es el de v0.4, pendiente de revisión textual; los indicadores de III° Medio no están individualizados.
+- La generación de recursos es por plantillas, no por IA.
